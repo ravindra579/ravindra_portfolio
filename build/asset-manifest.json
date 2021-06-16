@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ravindra_portfolio/static/css/main.547477b7.chunk.css",
+    "main.js": "/ravindra_portfolio/static/js/main.700737c8.chunk.js",
+    "main.js.map": "/ravindra_portfolio/static/js/main.700737c8.chunk.js.map",
+    "runtime-main.js": "/ravindra_portfolio/static/js/runtime-main.4998f866.js",
+    "runtime-main.js.map": "/ravindra_portfolio/static/js/runtime-main.4998f866.js.map",
+    "static/js/2.6e35eca1.chunk.js": "/ravindra_portfolio/static/js/2.6e35eca1.chunk.js",
+    "static/js/2.6e35eca1.chunk.js.map": "/ravindra_portfolio/static/js/2.6e35eca1.chunk.js.map",
+    "index.html": "/ravindra_portfolio/index.html",
+    "precache-manifest.0e6e5250f116a3d48c46b4e5bf6eb278.js": "/ravindra_portfolio/precache-manifest.0e6e5250f116a3d48c46b4e5bf6eb278.js",
+    "service-worker.js": "/ravindra_portfolio/service-worker.js",
+    "static/css/main.547477b7.chunk.css.map": "/ravindra_portfolio/static/css/main.547477b7.chunk.css.map",
+    "static/js/2.6e35eca1.chunk.js.LICENSE.txt": "/ravindra_portfolio/static/js/2.6e35eca1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ravindra_portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/a.JPG": "/ravindra_portfolio/static/media/a.50edf48f.JPG",
+    "static/media/b.JPG": "/ravindra_portfolio/static/media/b.6234f253.JPG",
+    "static/media/c.JPG": "/ravindra_portfolio/static/media/c.b86b6b02.JPG",
+    "static/media/deeplearning_ai_logo.png": "/ravindra_portfolio/static/media/deeplearning_ai_logo.7a9b2eb0.png",
+    "static/media/all.css": "/ravindra_portfolio/static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/googleAssistant.jpg": "/ravindra_portfolio/static/media/googleAssistant.0c8a4c11.jpg",
+    "static/media/hrishi2.png": "/ravindra_portfolio/static/media/hrishi2.66e2d22b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4998f866.js",
+    "static/js/2.6e35eca1.chunk.js",
+    "static/css/main.547477b7.chunk.css",
+    "static/js/main.700737c8.chunk.js"
+  ]
+}
