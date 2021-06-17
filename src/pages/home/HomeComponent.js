@@ -6,7 +6,7 @@ function Home(props) {
   return (
     <div>
       <Header theme={props.theme} setTheme={props.setTheme} />
-      <Greeting theme={props.theme} />
+      <Greeting theme={props.theme} setTheme={props.setTheme} />
     </div>
   );
 }

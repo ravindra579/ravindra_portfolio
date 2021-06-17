@@ -14,9 +14,6 @@ function Education(props) {
       <div className="basic-education">
         <Fade bottom duration={2000} distance="40px">
           <div className="heading-div">
-            <div className="heading-img-div">
-            <img className="profile" src={require(`../../assests/images/${contactPageData.contactSection["education_image_path"]}`)} alt=""/>
-            </div>
           </div>
         </Fade>
         <Educations theme={props.theme} />

@@ -1,3 +1,4 @@
+
 .degree-card {
     display: flex;
     width: 100%;
@@ -54,8 +55,14 @@
     padding-right: 10px;
     font-family: "Google Sans Regular";
   }
-  
+  @media (max-width:1380){
+    .exp-card{
+        padding-left: 10%;
+        padding-bottom: 2px;
+    }
+  }
   @media (max-width: 768px) {
+    
     .degree-card {
       flex-direction: column;
     }

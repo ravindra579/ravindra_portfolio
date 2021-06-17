@@ -29,8 +29,6 @@ function ExperienceCard(props) {
 
   return (
     <div className="exp-card">
-      <Flip left duration={2000}>
-      </Flip>
       <Fade right duration={2000} distance="40px">
         <div {...card_body}>
           <div

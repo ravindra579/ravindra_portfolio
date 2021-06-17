@@ -5,7 +5,8 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import { style } from "glamor";
-import { contactPageData } from "../../portfolio.js";
+import{contactPageData} from "../../portfolio"
+const ContactData = contactPageData.contactSection;
 export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
@@ -18,13 +19,14 @@ export default function Greeting(props) {
   });
 
   return (
-    <Fade bottom duration={2000} distance="40px">
-     
+    <Fade bottom duration={1000} distance="40px">
+        
         <div className="greeting-main">
+          <div className="greeting-text-div">
           <div className="greeting-image-div">
-          <img src={require(`../../assests/images/${contactPageData.contactSection["profile_image_path"]}`)} alt=""/>
-          </div>
-
+          <img  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)} alt=""/>
+</div>
+</div>
             <div>
               <h1 className="greeting-text">{greeting.title}</h1>
               <p
@@ -50,9 +52,7 @@ export default function Greeting(props) {
                 </button>
               </div>
             </div>
-            
           </div>
-
     </Fade>
   );
 }

@@ -41,15 +41,16 @@ export default function ProjectCard({ repo, theme }) {
           </div>
           {repo.description.map((sentence) => {
           return (
-          <p className="repo-description" style={{ color: theme.text }}>
+          <p className="repo-description" style={{ color: "black" }}>
             {sentence}</p>);})};
-          <p className="repo-description" style={{color:theme.text}}>
+          <p className="repo-description" style={{color:"black"}}>
               <b><u><h3>Technologies used:</h3></u></b>
           </p>
+          <div className="repo-description">
           {repo.language.map((sentence) => {
-        return (<i className="a" style={{ color: theme.text }}>
+        return (<i className="a" style={{ color: "black" }}>
           {sentence}</i>);})};
-        
+        </div>
         
         
         </div>
@@ -66,7 +67,7 @@ export default function ProjectCard({ repo, theme }) {
                       style={{ backgroundColor: theme.ProjectCard }}
                     >
                       <div className="repo-name-div">
-                        <div className="repo-name" style={{color: theme.text}}>
+                        <div className="repo-name" style={{color: "black"}}>
                           {repo.name}
                         </div>
                         <div className="repo-description1">
@@ -75,15 +76,16 @@ export default function ProjectCard({ repo, theme }) {
                       </div>
                       {repo.description.map((sentence) => {
                       return (
-                      <p className="repo-description" style={{ color: theme.text }}>
+                      <p className="repo-description" style={{ color: "black" }}>
                         {sentence}</p>);})};
-                      <p className="repo-description" style={{color:theme.text}}>
+                      <p className="repo-description" style={{color:"black"}}>
                           <b><u><h3>Technologies used:</h3></u></b>
                       </p>
+                      <div className="repo-description">
                       {repo.language.map((sentence) => {
-                    return (<i className="a" style={{ color: theme.text }}>
+                    return (<i className="a" style={{ color: "black" }}>
                       {sentence}</i>);})};
-                     
+                     </div>
                     </div>
                   </Fade>
                 </div>
@@ -100,20 +102,22 @@ else{
               style={{ backgroundColor: theme.ProjectCard }}
             >
               <div className="repo-name-div">
-                <p className="repo-name" style={{color: theme.text}}>
+                <p className="repo-name" style={{color: "black"}}>
                   {repo.name}
                 </p>
               </div>
               {repo.description.map((sentence) => {
               return (
-              <p className="repo-description" style={{ color: theme.text }}>
+              <p className="repo-description" style={{ color: "black" }}>
                 {sentence}</p>);})};
-              <p className="repo-description" style={{color:theme.text}}>
+              <p className="repo-description" style={{color:"black"}}>
                   <b><u><h3>Technologies used:</h3></u></b>
               </p>
+              <div className="repo-description">
               {repo.language.map((sentence) => {
-            return (<i className="a" style={{ color: theme.text }}>
+            return (<i className="a" style={{ color:"black" }}>
               {sentence}</i>);})};
+              </div>
             </div>
           </Fade>
         </div>

@@ -16,9 +16,6 @@ function Projects(props) {
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
-            <div className="projects-heading-img-div">
-            <img className="profile" src={require(`../../assests/images/${contactPageData.contactSection["project_image_path"]}`)} alt=""/>
-            </div>
           </div>
         </Fade>
       </div>

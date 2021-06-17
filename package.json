@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "portfolio",
-  "homepage": "http://ravindra579.github.io/ravindra_portfolio/",
+  "homepage": "http://ravindra579.github.io/ravindra_portfolio",
   "version": "1.2.0",
   "scripts": {
     "build": "react-scripts build",

@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Education from "../pages/education/EducationComponent";
@@ -23,6 +24,7 @@ export default function Main(propss) {
               )}
             />
             <Route
+            exact
               path="/home"
               render={(props) => (
                 <Home
@@ -33,6 +35,7 @@ export default function Main(propss) {
               )}
             />
             <Route
+            exact
               path="/experience"
               exact
               render={(props) => (
@@ -44,6 +47,7 @@ export default function Main(propss) {
               )}
             />
             <Route
+            exact
               path="/education"
               render={(props) => (
                 <Education
@@ -54,6 +58,7 @@ export default function Main(propss) {
               )}
             />
             <Route
+            exact
               path="/contact"
               render={(props) => (
                 <Contact
@@ -64,6 +69,7 @@ export default function Main(propss) {
               )}
             />
             <Route
+            exact
               path="/projects"
               render={(props) => (
                 <Projects

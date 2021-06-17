@@ -23,7 +23,7 @@ function Contact(props) {
     <div className="contact-main">
      <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-contact">
-        <Fade bottom duration={1000} distance="40px">
+        <Fade bottom duration={2000} distance="40px">
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
             <img className="profile-pic" src={require(`../../assests/images/${ContactData["profile_image_path"]}`)} alt=""/>
@@ -51,7 +51,6 @@ function Contact(props) {
           </div>
         </Fade>
       </div>
-     
     </div>
 
   );

@@ -15,9 +15,7 @@ function Experience(props) {
       <div className="basic-experience">
         <Fade bottom duration={2000} distance="40px">
           <div className="experience-heading-div">
-            <div className="experience-heading-img-div">
-            <img className="profile" src={require(`../../assests/images/${contactPageData.contactSection["intern_image_path"]}`)} alt=""/>
-            </div>
+            
             </div>  
         </Fade>
       </div>
