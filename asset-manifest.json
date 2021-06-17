@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ravindra_portfolio/static/css/main.8810ea3a.chunk.css",
-    "main.js": "/ravindra_portfolio/static/js/main.111543a9.chunk.js",
-    "main.js.map": "/ravindra_portfolio/static/js/main.111543a9.chunk.js.map",
+    "main.js": "/ravindra_portfolio/static/js/main.bbb75ae8.chunk.js",
+    "main.js.map": "/ravindra_portfolio/static/js/main.bbb75ae8.chunk.js.map",
     "runtime-main.js": "/ravindra_portfolio/static/js/runtime-main.4998f866.js",
     "runtime-main.js.map": "/ravindra_portfolio/static/js/runtime-main.4998f866.js.map",
     "static/js/2.5d0f3884.chunk.js": "/ravindra_portfolio/static/js/2.5d0f3884.chunk.js",
     "static/js/2.5d0f3884.chunk.js.map": "/ravindra_portfolio/static/js/2.5d0f3884.chunk.js.map",
     "index.html": "/ravindra_portfolio/index.html",
-    "precache-manifest.c5f3763220c162e6cfca86d72c76892d.js": "/ravindra_portfolio/precache-manifest.c5f3763220c162e6cfca86d72c76892d.js",
+    "precache-manifest.1b538e993c43a19f78add5b3fd83b0c3.js": "/ravindra_portfolio/precache-manifest.1b538e993c43a19f78add5b3fd83b0c3.js",
     "service-worker.js": "/ravindra_portfolio/service-worker.js",
     "static/css/main.8810ea3a.chunk.css.map": "/ravindra_portfolio/static/css/main.8810ea3a.chunk.css.map",
     "static/js/2.5d0f3884.chunk.js.LICENSE.txt": "/ravindra_portfolio/static/js/2.5d0f3884.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.4998f866.js",
     "static/js/2.5d0f3884.chunk.js",
     "static/css/main.8810ea3a.chunk.css",
-    "static/js/main.111543a9.chunk.js"
+    "static/js/main.bbb75ae8.chunk.js"
   ]
 }
