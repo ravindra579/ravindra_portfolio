@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4de2aee7e38daef7dfd63d964cea9f5f",
+    "revision": "c66e29e9a6a4191687730c55669b1f1f",
     "url": "/ravindra_portfolio/index.html"
   },
   {
-    "revision": "4af3756de281099aec9a",
+    "revision": "024ebcdaebac77816b41",
     "url": "/ravindra_portfolio/static/css/main.4fd48fee.chunk.css"
   },
   {
-    "revision": "82a197de45913a267d23",
-    "url": "/ravindra_portfolio/static/js/2.d8db3387.chunk.js"
+    "revision": "f9416df3f575344594a2",
+    "url": "/ravindra_portfolio/static/js/2.6be7e9d9.chunk.js"
   },
   {
     "revision": "28d36cae8db7790f6fc02920470bed26",
-    "url": "/ravindra_portfolio/static/js/2.d8db3387.chunk.js.LICENSE.txt"
+    "url": "/ravindra_portfolio/static/js/2.6be7e9d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4af3756de281099aec9a",
-    "url": "/ravindra_portfolio/static/js/main.252c1a51.chunk.js"
+    "revision": "024ebcdaebac77816b41",
+    "url": "/ravindra_portfolio/static/js/main.bffbc707.chunk.js"
   },
   {
     "revision": "1e6ff25c995548e4031b",
