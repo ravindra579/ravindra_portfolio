@@ -4,10 +4,7 @@ import { Fade } from "react-reveal";
 import { style } from "glamor";
 
 export default function ProjectCard({ repo, theme }) {
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+  
 
   const styles = style({
     color: "white",
@@ -21,8 +18,8 @@ export default function ProjectCard({ repo, theme }) {
       boxShadow: `${theme.color} 0 2px 15px`,
     },
   });
-   if(repo.id=="0"){
-       if(repo.website_id=="1"){
+   if(repo.id==="0"){
+       if(repo.website_id==="1"){
   return (
     <div>
       <Fade bottom duration={2000} distance="40px">

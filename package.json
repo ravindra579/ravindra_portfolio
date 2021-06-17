@@ -1,12 +1,12 @@
 {
   "private": true,
   "name": "portfolio",
-  "homepage": "http://ravindra579.github.io/ravindra_portfolio",
+  "homepage": "http://ravindra579.github.io/ravindra_portfolio/",
   "version": "1.2.0",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"

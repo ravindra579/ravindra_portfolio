@@ -1,6 +1,5 @@
 import React from "react";
 import "./ExperienceAccordion.css";
-import DegreeCard from "../../components/degreeCard/DegreeCard.js";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
 import { experience  } from "../../portfolio";
 import { Volunteer  } from "../../portfolio";

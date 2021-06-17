@@ -5,20 +5,19 @@ import { degrees } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 function Educations(props) {
-  const theme = props.theme;
 
   return (
     <div className="main" id="educations">
       <div className="educations-header-div">
         <Fade bottom duration={1000} distance="20px">
-          <h1 className="educations-header" style={{ color: theme.text }}>
+          <h1 className="educations-header" style={{ color: props.theme.text }}>
             Education 
           </h1>
         </Fade>
       </div>
       <div className="educations-body-div">
         {degrees.degrees.map((degree) => {
-          return <DegreeCard degree={degree} theme={theme} />;
+          return <DegreeCard degree={degree} theme={props.theme} />;
         })}
       </div>
     </div>

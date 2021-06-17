@@ -4,9 +4,8 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
-import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
-
+import { contactPageData } from "../../portfolio.js";
 export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
@@ -20,14 +19,12 @@ export default function Greeting(props) {
 
   return (
     <Fade bottom duration={2000} distance="40px">
-        
-      <div className="greet-main" id="greeting">
+     
         <div className="greeting-main">
-          <div className="greeting-text-div">
           <div className="greeting-image-div">
+          <img src={require(`../../assests/images/${contactPageData.contactSection["profile_image_path"]}`)} alt=""/>
+          </div>
 
-</div>
-</div>
             <div>
               <h1 className="greeting-text">{greeting.title}</h1>
               <p
@@ -53,8 +50,9 @@ export default function Greeting(props) {
                 </button>
               </div>
             </div>
+            
           </div>
-      </div>
+
     </Fade>
   );
 }

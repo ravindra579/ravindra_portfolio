@@ -1,12 +1,6 @@
-.main {
-  width: 100%;
-  padding: 0px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
-}
 
 .greet-main {
-  max-width: 1370px;
+ max-width: inherit;
   padding: 10px 10px;
   margin: 0px auto;
   margin-top: 2rem;
@@ -15,7 +9,6 @@
 
 .greeting-main {
   display: flex;
-  /* text-align: center; */
 }
 
 .greeting-main > * {
@@ -35,12 +28,6 @@
   font-family: "Google Sans Bold";
 }
 
-.greeting-nickname {
-  font-size: 30px;
-  line-height: 0px;
-  font-family: "Google Sans Bold Italic";
-}
-
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
@@ -49,8 +36,11 @@
 }
 
 .greeting-image-div > * {
-  max-width: 100%;
+  max-width: inherit;
+  max-width: 90%;
   height: auto;
+  padding-left: 20%;
+  padding-top: 10%;
 }
 
 .button {
@@ -80,9 +70,6 @@
     font-size: 20px;
   }
 
-  .greet-main {
-    max-width: 1500px;
-  }
 }
 @media (max-width: 768px) {
   .button-greeting-div {
@@ -93,10 +80,6 @@
     margin-top: 0px;
     text-align: center;
   }
-  .greeting-nickname {
-    font-size: 25px;
-    text-align: center;
-  }
   .greeting-text-p {
     font-size: 16px;
     margin-right: 0px;
@@ -104,11 +87,12 @@
     text-align: center;
   }
   .greeting-main {
+    max-width: inherit;
     display: block;
   }
 
   .portfolio-repo-btn-div {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     text-align: center;

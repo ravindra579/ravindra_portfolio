@@ -19,7 +19,7 @@ function Contact(props) {
   });
 
   return (
-    <div className="greet-main" id="greeting">
+
     <div className="contact-main">
      <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-contact">
@@ -53,7 +53,7 @@ function Contact(props) {
       </div>
      
     </div>
-    </div>
+
   );
 }
 
