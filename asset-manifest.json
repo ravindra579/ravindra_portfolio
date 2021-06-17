@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ravindra_portfolio/static/css/main.7b521eff.chunk.css",
-    "main.js": "/ravindra_portfolio/static/js/main.d7479fcf.chunk.js",
-    "main.js.map": "/ravindra_portfolio/static/js/main.d7479fcf.chunk.js.map",
+    "main.css": "/ravindra_portfolio/static/css/main.4fd48fee.chunk.css",
+    "main.js": "/ravindra_portfolio/static/js/main.252c1a51.chunk.js",
+    "main.js.map": "/ravindra_portfolio/static/js/main.252c1a51.chunk.js.map",
     "runtime-main.js": "/ravindra_portfolio/static/js/runtime-main.4998f866.js",
     "runtime-main.js.map": "/ravindra_portfolio/static/js/runtime-main.4998f866.js.map",
     "static/js/2.d8db3387.chunk.js": "/ravindra_portfolio/static/js/2.d8db3387.chunk.js",
     "static/js/2.d8db3387.chunk.js.map": "/ravindra_portfolio/static/js/2.d8db3387.chunk.js.map",
     "index.html": "/ravindra_portfolio/index.html",
-    "precache-manifest.5ba973229fce4e3a8d22f65b694d076d.js": "/ravindra_portfolio/precache-manifest.5ba973229fce4e3a8d22f65b694d076d.js",
+    "precache-manifest.330e38ddb91837ef27b75c95c71e08c6.js": "/ravindra_portfolio/precache-manifest.330e38ddb91837ef27b75c95c71e08c6.js",
     "service-worker.js": "/ravindra_portfolio/service-worker.js",
-    "static/css/main.7b521eff.chunk.css.map": "/ravindra_portfolio/static/css/main.7b521eff.chunk.css.map",
+    "static/css/main.4fd48fee.chunk.css.map": "/ravindra_portfolio/static/css/main.4fd48fee.chunk.css.map",
     "static/js/2.d8db3387.chunk.js.LICENSE.txt": "/ravindra_portfolio/static/js/2.d8db3387.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ravindra_portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/a.JPG": "/ravindra_portfolio/static/media/a.50edf48f.JPG",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.4998f866.js",
     "static/js/2.d8db3387.chunk.js",
-    "static/css/main.7b521eff.chunk.css",
-    "static/js/main.d7479fcf.chunk.js"
+    "static/css/main.4fd48fee.chunk.css",
+    "static/js/main.252c1a51.chunk.js"
   ]
 }
