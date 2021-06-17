@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ravindra_portfolio/static/css/main.4fd48fee.chunk.css",
-    "main.js": "/ravindra_portfolio/static/js/main.f9894907.chunk.js",
-    "main.js.map": "/ravindra_portfolio/static/js/main.f9894907.chunk.js.map",
+    "main.css": "/ravindra_portfolio/static/css/main.076db5ee.chunk.css",
+    "main.js": "/ravindra_portfolio/static/js/main.0ed152d5.chunk.js",
+    "main.js.map": "/ravindra_portfolio/static/js/main.0ed152d5.chunk.js.map",
     "runtime-main.js": "/ravindra_portfolio/static/js/runtime-main.4998f866.js",
     "runtime-main.js.map": "/ravindra_portfolio/static/js/runtime-main.4998f866.js.map",
-    "static/js/2.51a8d34f.chunk.js": "/ravindra_portfolio/static/js/2.51a8d34f.chunk.js",
-    "static/js/2.51a8d34f.chunk.js.map": "/ravindra_portfolio/static/js/2.51a8d34f.chunk.js.map",
+    "static/js/2.d707e7ad.chunk.js": "/ravindra_portfolio/static/js/2.d707e7ad.chunk.js",
+    "static/js/2.d707e7ad.chunk.js.map": "/ravindra_portfolio/static/js/2.d707e7ad.chunk.js.map",
     "index.html": "/ravindra_portfolio/index.html",
-    "precache-manifest.ff21b97d932468a4b23f7c17aed02a9b.js": "/ravindra_portfolio/precache-manifest.ff21b97d932468a4b23f7c17aed02a9b.js",
+    "precache-manifest.68e124da1ce310f061efd976d8f6347d.js": "/ravindra_portfolio/precache-manifest.68e124da1ce310f061efd976d8f6347d.js",
     "service-worker.js": "/ravindra_portfolio/service-worker.js",
-    "static/css/main.4fd48fee.chunk.css.map": "/ravindra_portfolio/static/css/main.4fd48fee.chunk.css.map",
-    "static/js/2.51a8d34f.chunk.js.LICENSE.txt": "/ravindra_portfolio/static/js/2.51a8d34f.chunk.js.LICENSE.txt",
+    "static/css/main.076db5ee.chunk.css.map": "/ravindra_portfolio/static/css/main.076db5ee.chunk.css.map",
+    "static/js/2.d707e7ad.chunk.js.LICENSE.txt": "/ravindra_portfolio/static/js/2.d707e7ad.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ravindra_portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/a.JPG": "/ravindra_portfolio/static/media/a.50edf48f.JPG",
     "static/media/b.JPG": "/ravindra_portfolio/static/media/b.6234f253.JPG",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4998f866.js",
-    "static/js/2.51a8d34f.chunk.js",
-    "static/css/main.4fd48fee.chunk.css",
-    "static/js/main.f9894907.chunk.js"
+    "static/js/2.d707e7ad.chunk.js",
+    "static/css/main.076db5ee.chunk.css",
+    "static/js/main.0ed152d5.chunk.js"
   ]
 }
