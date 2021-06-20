@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae3555ea2ab12cecc9ec286b6b8d8639",
+    "revision": "eeaf8f018e19dcfd4bc0a803d32279a8",
     "url": "/ravindra_portfolio/index.html"
   },
   {
-    "revision": "7ec87a59061cdbcf3943",
-    "url": "/ravindra_portfolio/static/css/main.49827298.chunk.css"
+    "revision": "634004c847af09443f7f",
+    "url": "/ravindra_portfolio/static/css/main.2c933747.chunk.css"
   },
   {
-    "revision": "9c212b8612a31a2bea3f",
-    "url": "/ravindra_portfolio/static/js/2.d707e7ad.chunk.js"
+    "revision": "e86932e1c226788247d2",
+    "url": "/ravindra_portfolio/static/js/2.9834919b.chunk.js"
   },
   {
     "revision": "28d36cae8db7790f6fc02920470bed26",
-    "url": "/ravindra_portfolio/static/js/2.d707e7ad.chunk.js.LICENSE.txt"
+    "url": "/ravindra_portfolio/static/js/2.9834919b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ec87a59061cdbcf3943",
-    "url": "/ravindra_portfolio/static/js/main.5ec6aae8.chunk.js"
+    "revision": "634004c847af09443f7f",
+    "url": "/ravindra_portfolio/static/js/main.86a01225.chunk.js"
   },
   {
     "revision": "1e6ff25c995548e4031b",
@@ -52,8 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ravindra_portfolio/static/media/GoogleSans-Regular.b5c77a6a.ttf"
   },
   {
+    "revision": "3f26fc3bd32fe0cef79468682dbbc4f0",
+    "url": "/ravindra_portfolio/static/media/Hello.3f26fc3b.JPG"
+  },
+  {
+    "revision": "1bea7c15bba43f17cdf8772847be60b0",
+    "url": "/ravindra_portfolio/static/media/Matlab.1bea7c15.JPG"
+  },
+  {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/ravindra_portfolio/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "1820eb3d55a8d9ccd964cafab06e6b49",
+    "url": "/ravindra_portfolio/static/media/R.1820eb3d.JPG"
   },
   {
     "revision": "50edf48f00747793c44fea97e3b060a5",
@@ -68,8 +80,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ravindra_portfolio/static/media/c.b86b6b02.JPG"
   },
   {
+    "revision": "2613a9a05b3564b2c285cac4eb124edc",
+    "url": "/ravindra_portfolio/static/media/ca.2613a9a0.JPG"
+  },
+  {
+    "revision": "c8df52be2b6b8aa763aa04ed730812b1",
+    "url": "/ravindra_portfolio/static/media/cnn.c8df52be.JPG"
+  },
+  {
     "revision": "7a9b2eb087350abacd2587dd578226c7",
     "url": "/ravindra_portfolio/static/media/deeplearning_ai_logo.7a9b2eb0.png"
+  },
+  {
+    "revision": "4fa78940c81dadedae93497bdbf34b62",
+    "url": "/ravindra_portfolio/static/media/dl.4fa78940.JPG"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
@@ -132,11 +156,71 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ravindra_portfolio/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
+    "revision": "17932c15a13d61c504ce68aa4280795c",
+    "url": "/ravindra_portfolio/static/media/fe.17932c15.JPG"
+  },
+  {
     "revision": "0c8a4c114ad00f7854e91550379b9b91",
     "url": "/ravindra_portfolio/static/media/googleAssistant.0c8a4c11.jpg"
   },
   {
     "revision": "66e2d22bd710b19d9d9d4da4cc3e0ac2",
     "url": "/ravindra_portfolio/static/media/hrishi2.66e2d22b.png"
+  },
+  {
+    "revision": "2036bfcb2e13a264eec9324f76823824",
+    "url": "/ravindra_portfolio/static/media/internshala.2036bfcb.JPG"
+  },
+  {
+    "revision": "3f88e80e42e433b9c508c6ce6922bb21",
+    "url": "/ravindra_portfolio/static/media/jpmc.3f88e80e.JPG"
+  },
+  {
+    "revision": "c234edd1a7909e2409987e7fb0081a30",
+    "url": "/ravindra_portfolio/static/media/ml.c234edd1.JPG"
+  },
+  {
+    "revision": "2bee1e91dd2944b68ff851faa406c3a0",
+    "url": "/ravindra_portfolio/static/media/nn.2bee1e91.JPG"
+  },
+  {
+    "revision": "4aeeb54c652b4be3a616601f31afcec7",
+    "url": "/ravindra_portfolio/static/media/p1.4aeeb54c.JPG"
+  },
+  {
+    "revision": "96f3713abc035be792f72c5a84bd0f60",
+    "url": "/ravindra_portfolio/static/media/p2.96f3713a.JPG"
+  },
+  {
+    "revision": "643d71f9805aaf67e3bc911b1223619f",
+    "url": "/ravindra_portfolio/static/media/p3.643d71f9.JPG"
+  },
+  {
+    "revision": "ce0cd59906fe1cdb3ab9817886e8f1a5",
+    "url": "/ravindra_portfolio/static/media/p4.ce0cd599.JPG"
+  },
+  {
+    "revision": "c48c46f2897b35c26180e3f46ac6f264",
+    "url": "/ravindra_portfolio/static/media/sf.c48c46f2.JPG"
+  },
+  {
+    "revision": "cca87f80a4066810a7f57ddfd164a5d3",
+    "url": "/ravindra_portfolio/static/media/sm.cca87f80.JPG"
+  },
+  {
+    "revision": "78b11a79d88937c4e61212fbcd60ae49",
+    "url": "/ravindra_portfolio/static/media/sp.78b11a79.JPG"
+  },
+  {
+    "revision": "ae66789baff301678b12245bee7c5d1a",
+    "url": "/ravindra_portfolio/static/media/sr.ae66789b.JPG"
+  },
+  {
+    "revision": "89135dd6fa59a1dee31c55e890b5f025",
+    "url": "/ravindra_portfolio/static/media/web.89135dd6.JPG"
+  },
+  {
+    "revision": "4b766ddefa9dacffa4894166a557634f",
+    "url": "/ravindra_portfolio/static/media/ws.4b766dde.JPG"
   }
 ]);
