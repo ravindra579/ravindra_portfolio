@@ -6,6 +6,7 @@ import CertificationCard from "../../components/certificationCard/CertificationC
 
 function Certifications(props) {
   const theme = props.theme;
+  const imageclick=false;
   return (
     <div className="main" id="certs">
       <div className="certs-header-div">
@@ -17,7 +18,7 @@ function Certifications(props) {
       </div>
       <div className="certs-body-div">
         {certifications.certifications.map((cert) => {
-          return <CertificationCard certificate={cert} theme={theme} />;
+          return <CertificationCard certificate={cert} theme={theme} imageclick={imageclick}/>;
         })}
       </div>
     </div>

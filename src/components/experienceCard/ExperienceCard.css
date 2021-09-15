@@ -2,6 +2,7 @@
 .degree-card {
     display: flex;
     width: 100%;
+    padding-left: 10px;
     justify-content: center;
     align-items: center;
   }
@@ -57,7 +58,7 @@
   }
   @media (max-width:1380){
     .exp-card{
-        padding-left: 10%;
+        padding-left: 20px;
         padding-bottom: 2px;
     }
   }

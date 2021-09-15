@@ -13,7 +13,7 @@ function DegreeCard(props) {
     borderLeft: `2px solid ${degree.color_code}`,
     borderRight: `2px solid ${degree.color_code}`,
     borderRadius: "7px",
-    width: "90%",
+    width: "95%",
     margin: "10px",
     boxShadow: `0px 1px 5px ${degree.color_code}`,
     transition: "all 0.2s ease-in-out",

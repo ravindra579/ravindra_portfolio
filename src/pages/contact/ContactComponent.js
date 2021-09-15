@@ -25,8 +25,8 @@ function Contact(props) {
       <div className="basic-contact">
         <Fade bottom duration={2000} distance="40px">
           <div className="contact-heading-div">
-            <div className="contact-heading-img-div">
-            <img className="profile-pic" src={require(`../../assests/images/${ContactData["profile_image_path"]}`)} alt=""/>
+            <div className="contact-heading-img-div" style={{marginLeft:"100px"}}>
+            <img className="profile-pic" src={require(`../../assests/images/${ContactData["profile_image_path"]}`)} alt="" width="50%"/>
             </div>
             <div className="contact-heading-text-div">
               <h1

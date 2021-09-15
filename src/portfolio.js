@@ -1,6 +1,3 @@
-/* Change this file to get your personal Porfolio */
-
-// Website related settings
 const settings = {
   isSplash: false, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
@@ -11,248 +8,58 @@ const settings = {
 const greeting = {
   title: "Hello",
   title2: "Ravindra",
-  logo_name: "RAVINDRA",
+  logo_name: "RAVINDRA REDDY",
   nickname: "RAVI",
   full_name: "SIDDAM RAVINDRA REDDY",
   subTitle:
-    "Web Developer,Mechanical engineer,Intrested in Software field, Machine Learning Enthusiast. Always learning,Quick Learner",
+    "Mechanical engineer, Web Developer, Intrested in Software field, Machine Learning Enthusiast, Quick Learner",
   resumeLink:
-    "https://drive.google.com/file/d/1j-1ywaVWfye2F2IUOb--hs7wdjS9ifhg/view?usp=drivesdk",
+    "https://drive.google.com/file/d/14uWnf9e5I1PD1NEXrAulipUuVxN-sWld/view?usp=drive_open",
   mail: "ravindrareddy1217@gmail.com",
 };
 
 const socialMediaLinks = {
-  /* Your Social Media Link */
   github: "https://github.com/ravindra579/",
   linkedin: "https://www.linkedin.com/in/siddam-ravindra-reddy-230539190",
   gmail: "ravindrareddy1217@gmail.com",
 };
-
-const skills = {
-  data: [
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "",
-    
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-      ],
-    },
-      ],
-    }
-
 const degrees = {
   degrees: [
     {
       title: "National Istitute of Technology Calicut",
       subtitle: "B.Tech. in Mechanical Engineering",
-      logo_path: "sal.png",
-      alt_name: "SETI",
       duration: "2019 - Present",
       color_code: "#2AAFED",
       descriptions: [
-        ">> CGPA=8.8 till fourth semester",  
+        ">> CGPA=8.78 till fourth semester",  
         ">> Intrested in Mechanical core Sujects,Coading ,Web Development,Machine Learning & Software field",
         ">> Actively participating in Competetions",
-        ">> Worked on many self Projects as well as Group projects",     
-      ],
-      website_link: "https://www.nitc.ac.in/",
+        ">> Worked on many self Projects as well as in Group projects",     
+      ]
     },
     {
         title: "Narayana Junior College ,Nannur",
         subtitle: "MPC",
-        logo_path: "sal.png",
-        alt_name: "SETI",
         color_code: "#ffc475",
         duration: "2017-2019",
         descriptions: [
           ">> CGPA - 9.88 ",
-          ">> JEE Main Ranks - 11,979",
-          ">> APEAMCET rank - 2079 ",
-          ">> TSEAMCET rank - 781 ",
-        ],
-        website_link: "https://www.nitc.ac.in/",
+          ">> JEE Main Rank - 11,979",
+          ">> APEAMCET Rank - 2079 ",
+          ">> TSEAMCET rRnk - 781 ",
+        ]
       }, 
       {
         title: "SRI Vikas High School ,Koilakuntla",
         subtitle: "",
-        logo_path: "sal.png",
-        alt_name: "SETI",
         color_code: "#0C9D5899",
         duration: "2016-2017",
         descriptions: [
           ">> CGPA - 9.3 ",
           ">> Participated in district level Criket and Kabaddi Games",
-        ],
-        website_link: "https://www.nitc.ac.in/",
+        ]
       }, 
-  ],
-  
+  ]
 };
 
 const certifications = {
@@ -261,122 +68,91 @@ const certifications = {
         title: "Neural Networks and Deep Learning",
         subtitle: "deeplearning.ai",
         subtitle1:"Coursera",
-        logo_path: "deeplearning_ai_logo.png",
-        certificate_link:
-          "",
-        alt_name: "Google",
+        certificate_link:"dl.JPG",
         color_code: "#7A7A7A",
       },
     {
       title: "Sequence Models",
       subtitle: "deeplearning.ai",
       subtitle1:"Coursera",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
-      alt_name: "deeplearning.ai",
+      certificate_link:"sm.JPG",
       color_code: "#F6B808",
     },
     {
       title: "Convolutional Neural Networks",
       subtitle: "deeplearning.ai",
       subtitle1:"Coursera",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
-      alt_name: "deeplearning.ai",
+      certificate_link:"cnn.JPG",
       color_code: "#2AAFED",
     },
     {
       title: "Structuring Machine Learning Projects",
       subtitle: "deeplearning.ai",
       subtitle1:"Coursera",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
-      alt_name: "deeplearning.ai",
+      certificate_link:"ml.JPG",
       color_code: "#E2405F",
     },
     {
       title: "Improving Deep Neural Networks",
       subtitle: "deeplearning.ai",
       subtitle1:"Coursera",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
-      alt_name: "Google",
+      certificate_link:"nn.JPG",
       color_code: "#0C9D5899",
     },
     {
       title: "Introduction to Web Development",
       subtitle: "UCDAVIS",
       subtitle1:"Coursera",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link: "",
-      alt_name: "",
+      certificate_link: "web.JPG",
       color_code: "#C5E2EE",
     },
     {
       title: "Matlab",
       subtitle: "Matlab Comprehensive course by Sanjeev",
       subtitle1:"Udemy",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
+      certificate_link: "Matlab.JPG",
       color_code: "#ffc475",
     },
     {
       title: "Sofware Engineer virtual Experience",
       subtitle: "JPMorgan Chase & Co",
       subtitle1:"Forage",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
+      certificate_link: "jpmc.JPG",
       color_code: "#1e70c1",
     },
     {
       title: "Cloud Computing with AWS",
       subtitle: "Internshala Course",
       subtitle1:" ",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
+      certificate_link: "internshala.JPG",
       color_code: "#ffbfae",
     },
     {
         title: "Python Programming",
         subtitle: "Python programming by Avinash Jain",
         subtitle1:"Udemy",
-        logo_path: "google_logo.png",
-        certificate_link: " ",
-        alt_name: "Google",
+        certificate_link: "p1.JPG",
         color_code: "#2AAFED",
       },
       {
         title: "Hello English Training Competetion",
         subtitle: "Hello English",
         subtitle1:"FFE",
-        logo_path: "google_logo.png",
-        certificate_link: " ",
-        alt_name: "Google",
+        certificate_link: "Hello.JPG",
         color_code: "#ffbfae",
       },
       {
         title: "Wire Technology in Bikes & Engine System Workshop",
         subtitle: "Skyy Rider",
         subtitle1:" ",
-        logo_path: "google_logo.png",
-        certificate_link: " ",
-        alt_name: "Google",
+        certificate_link: "sr.JPG",
         color_code: "#F6B808",
       },
       {
         title: "Front End Workshop",
         subtitle: "Skill Safari",
         subtitle1:"",
-        logo_path: "google_logo.png",
-        certificate_link: " ",
-        alt_name: "Google",
+        certificate_link: "fe.JPG",
         color_code: "#7A7A7A",
       },
       
@@ -387,26 +163,28 @@ const certifications = {
 const experience = {
       experiences: [
         {
-          title: "Web Developer & Designer",
-          company: "Sparks Foundation",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "1 jan 2021 - 31 jan 2021",
-          location: "Work From Home",
-          description:[
-            ">> I worked on the Dashboard project which helps users track their activities while using Sugar OS. I also worked on making a Tamagotchi-like widget for Sugar's Home Screen"
-          ],
-          color_code: "#ee3c26",
-        },
-        {
-          title: "  ",
-          company: "IAS4Sure",
+          title: "Full Stack Developer [Befinsavvy]",
+          company: "BeFinSavvy",
           company_url: " ",
           logo_path: "buld.jpg",
-          duration: "May 2021 - July 2021",
+          duration: "May-2021 – July-2021",
           location: "Work From Home",
           description:[
-            ">> Internship task was to make a native Android application. "
+            ">> Currently working on building frontend pages, Backend and API's [befinsavvy.herokuapp.com].",
+            ">> Worked on optimization of Database. Worked on optimization of Database."
+          ],
+          color_code: "#4ED0CE",
+        },
+        {
+          title: "Data Acquisition system",
+          company: " ",
+          company_url: " ",
+          logo_path: "buld.jpg",
+          duration: "May-2021 – July-2021",
+          location: "Work From Home",
+          description:[
+            ">> Designed a cooling system for a new product",
+            ">> Worked on developing a GUI for visualizing radar data [in C++ using QT Framework]."
           ],
           color_code: "#0071C5",
         },
@@ -415,13 +193,24 @@ const experience = {
           company: "National Olampiad",
           company_url: " ",
           logo_path: "wrighter.jpg",
-          duration: "June 2021 - July 2021",
+          duration: "June-2021 - July-2021",
           location: "",
           description: [
-              ">> Develop a website using PHP and jQuery."
+              ">> Automated things like generating mail ,saving information on Drive when a new video uploaded on a specific channel using IFFT."
         ],
           color_code: "#56A4D3",
-        },
+        },{
+          title: "Web Developer & Designer",
+          company: "Sparks Foundation",
+          company_url: "https://sugarlabs.org/",
+          logo_path: "google_logo.png",
+          duration: "1 jan 2021 - 31 jan 2021",
+          location: "Work From Home",
+          description:[
+            ">> Worked on Designing “Basic banking system website” using PHP and MYSQL Database"
+          ],
+          color_code: "#FFBC42",
+        }
     
       ],
 };
@@ -430,36 +219,31 @@ const Volunteer ={
           {
             title: "Campus Ambassoder",
             company: "Smart Knower",
-            company_url: "https://sugarlabs.org/",
-            logo_path: "google_logo.png",
             duration: "August 2020 - Febraury 2021",
             location: " ",
             description:[
-              "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck."
+              ">> I had worked 8 months as a campus Ambassoder during this time i get to know how efficiently we have to express and share our ideas and conducted some awareness programme about the programmes offered by Smart Knower"
             ],
             color_code: "#4285F4",
           },
           {
             title: "Volunteer for Thatva'19 & Ragam'20",
-            company: "Sugar Labs / GSoC",
-            company_url: "Thatva'19 & Ragam'20",
-            logo_path: "google_logo.png",
-            duration: "",
+            company: "NITC",
+            duration: "During the fest",
             location: " ",
             description:[
-              "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them."
+              ">> During Thathva'19 worked in League of Machines which is robotic competetion, I am one of the volunteer for organising that event.",
+              ">> During Ragam'20 volunteerd for Ethnic stall which is Skits and Dance group."
             ],
             color_code: "#D83B01",
           },
           {
             title: "Member of Club Ignite",
-            company: " ",
-            company_url: " ",
-            logo_path: "b.png",
+            company: "NITC",
             duration: "2020 - On Going",
             location: " ",
             description:[
-              "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers."
+              ">> I am one of the member of club Ignite the main aim of this club is to help poor students by providing books [mainly related to JEE Mains] and recorded lectures ,with the help of this club i had experienced how to manage and work with a group of members"
             ],
             color_code:"#7A7A7A",
           },
@@ -469,38 +253,24 @@ const Volunteer ={
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
-  avatar_image_path: "projects_image.svg",
 };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "a.JPG",
-    education_image_path: "a.JPG",
-    intern_image_path: "b.JPG",
-    project_image_path: "c.JPG",
+    profile_image_path: "profilepic.JPG",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "",
-    avatar_image_path: "blogs_image.svg",
-  },
 };
-
 const projects = {
   data: [
     {
       id: "0",
       name: "Portfolio",
-      website_id:"0",
-      website:"",
+      website_id:"1",
+      website:"https://ravindra579.github.io/ravindra_portfolio/#/",
       url: "https://github.com/ravindra579/portfolio",
       description: [
           "A clean and full customizable portfolio website."
@@ -537,7 +307,7 @@ const projects = {
       url: "https://github.com/ravindra579/dynamic_website_with_django",
       description:[
         "This is my first Responsive website",
-        "With the help of this of this Website we can get to know how the projects have to do ,scope,plans ....,Interhips,Job if some one fill their home page in website but  currently there were no users its empty"],
+        "With the help of this of this Website we can get to know how the projects have to do ,scope,plans ....,Internships,Jobs if some one fill their home page in website but  currently there were no users its empty"],
       language: [
           "Python",
           "Django",
@@ -595,8 +365,7 @@ const projects = {
       name: "Brake Fluid Leakage Indicator",
       url: " ",
       description:[
-        "worked as a group of five Members mainly focused on theory and we Learned how to work, share ideas as a group even though its online [work from home](without interacting directly) we tried our best to complete the project and to brush-up and improved our knowledge",
-        "Designed valve suitable for many conditions and did analysis"],
+        "worked as a group of five Members mainly focused on theory and we Learned how to work, share ideas as a group even though its online [work from home](without interacting directly) we tried our best to complete the project and to brush-up and improved our knowledge"],
       language: [
         "Solidworks"
       ],
@@ -631,7 +400,7 @@ const projects = {
       id: "0",
       website_id:"0",
       website:"",
-      name: "Symetric analysis of Displacement in Cylinders",
+      name: "Structural analysis of axisymmetric object",
       url: "https://github.com/ravindra579/FEM",
       description:
         ["Analysed the Displacement,Stress,Strain in Hollow Cylinder Using Finite Element Method techniques",
@@ -765,7 +534,6 @@ export {
   settings,
   greeting,
   socialMediaLinks,
-  skills,
   degrees,
   certifications,
   experience,

@@ -28,7 +28,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-google"></i>
+        <i className="fa fa-envelope"></i>
         <span></span>
       </a>
     </div>

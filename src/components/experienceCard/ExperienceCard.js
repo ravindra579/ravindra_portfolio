@@ -13,7 +13,7 @@ function ExperienceCard(props) {
     borderLeft: `2px solid ${exp.color_code}`,
     borderRight: `2px solid ${exp.color_code}`,
     borderRadius: "7px",
-    width: "90%",
+    width: "95%",
     margin: "10px",
     boxShadow: `0px 1px 5px ${exp.color_code}`,
     transition: "all 0.2s ease-in-out",
@@ -22,7 +22,7 @@ function ExperienceCard(props) {
       boxShadow: `0 5px 15px ${exp.color_code}`,
     },
     "@media (max-width: 768px)": {
-      width: "100%",
+      width: "98%",
     },
   });
 
@@ -37,7 +37,7 @@ function ExperienceCard(props) {
           >
             <div className="body-header-title">
               <h2 className="card-title" style={{ color: "#FFFFFF" }}>
-                {exp.title}
+                {exp.title} 
               </h2>
               <h3 className="card-subtitle" style={{ color: "#FFFFFF" }}>
                 {exp.company}

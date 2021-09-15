@@ -28,11 +28,11 @@
 
 .body-header-title {
   align-items: flex-start;
-  width: 80%;
+  width: 90%;
 }
 
 .body-header-duration {
-  width: 20%;
+  width: 10%;
 }
 .duration {
   font-family: "Google Sans Regular";

@@ -44,7 +44,7 @@ export default function ProjectCard({ repo, theme }) {
           <p className="repo-description" style={{ color: "black" }}>
             {sentence}</p>);})};
           <p className="repo-description" style={{color:"black"}}>
-              <b><u><h3>Technologies used:</h3></u></b>
+              <b><u><h3>Technologies/Languages used:</h3></u></b>
           </p>
           <div className="repo-description">
           {repo.language.map((sentence) => {
@@ -79,7 +79,7 @@ export default function ProjectCard({ repo, theme }) {
                       <p className="repo-description" style={{ color: "black" }}>
                         {sentence}</p>);})};
                       <p className="repo-description" style={{color:"black"}}>
-                          <b><u><h3>Technologies used:</h3></u></b>
+                          <b><u><h3>Technologies/Languages used:</h3></u></b>
                       </p>
                       <div className="repo-description">
                       {repo.language.map((sentence) => {
@@ -111,7 +111,7 @@ else{
               <p className="repo-description" style={{ color: "black" }}>
                 {sentence}</p>);})};
               <p className="repo-description" style={{color:"black"}}>
-                  <b><u><h3>Technologies used:</h3></u></b>
+                  <b><u><h3>Technologies/Languages used:</h3></u></b>
               </p>
               <div className="repo-description">
               {repo.language.map((sentence) => {

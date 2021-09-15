@@ -1,6 +1,5 @@
 .contact-main {
   width: 100%;
-  min-width: 100;
 }
 
 .basic-contact {
@@ -34,7 +33,7 @@
 }
 
 .contact-heading-img-div {
-  margin-left: 13%;
+  margin-left: 15%;
   margin-bottom: 8%;
   margin-top: 4%;
 }
@@ -50,6 +49,8 @@
 }
 
 .contact-heading-text-div {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
