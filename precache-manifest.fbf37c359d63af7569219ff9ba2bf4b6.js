@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7166eb9dee96b00e1eef297652c96abf",
+    "revision": "7acd01f5622c4108296a0ac71acfb902",
     "url": "/ravindra_portfolio/index.html"
   },
   {
-    "revision": "17ab345ab47b812660a4",
-    "url": "/ravindra_portfolio/static/css/main.7fc2d58b.chunk.css"
+    "revision": "aefce26556b818107464",
+    "url": "/ravindra_portfolio/static/css/main.af37d72e.chunk.css"
   },
   {
-    "revision": "33a2702ca9786924d73c",
-    "url": "/ravindra_portfolio/static/js/2.b8dac051.chunk.js"
+    "revision": "754c2096fac113ff6d45",
+    "url": "/ravindra_portfolio/static/js/2.c3c3d0cc.chunk.js"
   },
   {
     "revision": "28d36cae8db7790f6fc02920470bed26",
-    "url": "/ravindra_portfolio/static/js/2.b8dac051.chunk.js.LICENSE.txt"
+    "url": "/ravindra_portfolio/static/js/2.c3c3d0cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "17ab345ab47b812660a4",
-    "url": "/ravindra_portfolio/static/js/main.5460b17c.chunk.js"
+    "revision": "aefce26556b818107464",
+    "url": "/ravindra_portfolio/static/js/main.499c9a5d.chunk.js"
   },
   {
     "revision": "1e6ff25c995548e4031b",
