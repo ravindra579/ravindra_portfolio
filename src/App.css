@@ -20,9 +20,6 @@
 .heading {
   color: black;
 }
-.subTitle {
-  color: #868e96;
-}
 /* Animations */
 @keyframes fade_down {
   0% {

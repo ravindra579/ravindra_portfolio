@@ -8,90 +8,78 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import Imag from "../components/images/images";
 export default function Main(propss) {
-    return (
-      <div>
-        <HashRouter basename="/">
-          <Switch>
-            <Route
-              path="/"
-              exact
-              render={(props) => (
-                <Home
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
+  return (
+    <div>
+      <HashRouter basename="/">
+        <Switch>
+          <Route
+            path="/"
             exact
-              path="/home"
-              render={(props) => (
-                <Home
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
+            render={(props) => (
+              <Home
+                {...props}
+                theme={propss.theme}
+                setTheme={propss.setTheme}
+              />
+            )}
+          />
+          <Route
             exact
-              path="/experience"
-              exact
-              render={(props) => (
-                <Experience
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
+            path="/home"
+            render={(props) => (
+              <Home
+                {...props}
+                theme={propss.theme}
+                setTheme={propss.setTheme}
+              />
+            )}
+          />
+          <Route
             exact
-              path="/education"
-              render={(props) => (
-                <Education
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
+            path="/experience"
+            render={(props) => (
+              <Experience
+                {...props}
+                theme={propss.theme}
+                setTheme={propss.setTheme}
+              />
+            )}
+          />
+          <Route
             exact
-              path="/contact"
-              render={(props) => (
-                <Contact
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
+            path="/education"
+            render={(props) => (
+              <Education
+                {...props}
+                theme={propss.theme}
+                setTheme={propss.setTheme}
+              />
+            )}
+          />
+          <Route
             exact
-              path="/projects"
-              render={(props) => (
-                <Projects
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
+            path="/projects"
+            render={(props) => (
+              <Projects
+                {...props}
+                theme={propss.theme}
+                setTheme={propss.setTheme}
+              />
+            )}
+          />
+          <Route
             exact
-              path="/images"
-              render={(props) => (
-                <Imag
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-          </Switch>
-        </HashRouter>
-      </div>
-    );
-  }
+            path="/images"
+            render={(props) => (
+              <Imag
+                {...props}
+                theme={propss.theme}
+                setTheme={propss.setTheme}
+              />
+            )}
+          />
+        </Switch>
+      </HashRouter>
+    </div>
+  );
+}

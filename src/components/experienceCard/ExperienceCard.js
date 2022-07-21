@@ -7,13 +7,12 @@ function ExperienceCard(props) {
   const exp = props.exp;
   const theme = props.theme;
 
-
   const card_body = style({
     borderBottom: `4px solid ${exp.color_code}`,
     borderLeft: `2px solid ${exp.color_code}`,
     borderRight: `2px solid ${exp.color_code}`,
     borderRadius: "7px",
-    width: "95%",
+    width: "80%",
     margin: "10px",
     boxShadow: `0px 1px 5px ${exp.color_code}`,
     transition: "all 0.2s ease-in-out",
@@ -22,13 +21,13 @@ function ExperienceCard(props) {
       boxShadow: `0 5px 15px ${exp.color_code}`,
     },
     "@media (max-width: 768px)": {
-      width: "98%",
+      width: "95%",
+      margin: "5px",
     },
   });
 
-
   return (
-    <div className="exp-card">
+    <div className="degree-card">
       <Fade right duration={2000} distance="40px">
         <div {...card_body}>
           <div
@@ -37,10 +36,12 @@ function ExperienceCard(props) {
           >
             <div className="body-header-title">
               <h2 className="card-title" style={{ color: "#FFFFFF" }}>
-                {exp.title} 
+                {exp.title}
               </h2>
               <h3 className="card-subtitle" style={{ color: "#FFFFFF" }}>
-                {exp.company}
+                <a href={exp.company_url} className="card-subtitle">
+                  {exp.company}
+                </a>
               </h3>
             </div>
             <div className="body-header-duration">

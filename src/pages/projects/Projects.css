@@ -11,9 +11,9 @@
 .projects-heading-div {
   display: flex;
 }
-.profile{
-    align-items: center;
-    padding-right: 40%;
+.profile {
+  align-items: center;
+  padding-right: 40%;
 }
 .projects-heading-div > * {
   flex: 1;
@@ -62,8 +62,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem 1rem;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 60px;
 }
 
